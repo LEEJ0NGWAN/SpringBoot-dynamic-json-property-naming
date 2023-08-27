@@ -1,0 +1,12 @@
+api:
+  path:
+    user: /user
+
+user:
+  dynamic-json-property:
+    create-user:
+      family_name: lastName
+      surname: lastName
+      given_name: firstName
+      mobile_phone: phoneNumber
+      cell_phone: phoneNumber
